@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #4d3829;
+  background: #fbf6ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(184, 138, 53, 0.12), transparent 28rem),
+    linear-gradient(180deg, #fbf6ec 0%, #f7efe1 100%);
+  color: #4d3829;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: #dfceb4;
+}
